@@ -131,7 +131,7 @@ ul li a:hover{
     align-items: center;
     align-content: center;
     text-align: center;
-    background-image: url(contact/formBG.png);
+    background-image: url(CONTACT/formBG.png);
     background-size: 400%;
     animation: backgroundGradientAnimation 40s infinite;
 }
