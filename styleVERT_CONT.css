@@ -262,7 +262,7 @@ footer{
 
 /*SMALL DEVICE*/
 
-@media(max-width: 800px){
+@media(max-width: 1024px){
     ul{
         z-index: 10;
         padding: 30px;
