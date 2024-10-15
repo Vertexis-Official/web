@@ -165,25 +165,6 @@ ul li a:hover{
     box-shadow: 0 0 15px rgba(0,0,0,1);
 }
 
-.gallery-row{
-    width: 100%;
-    height: auto;
-    margin-bottom: 10px;
-    display: flex;
-    flex-direction: column;
-    position: relative;
-}
-
-.img{
-    max-width: 100%;
-    height: auto;
-    margin: 10px;
-    border-radius: 20px;
-    position: relative;
-    z-index: 1;
-    transition: 0.5s;
-}
-
 
 /*FOOTER*/
 
@@ -278,6 +259,35 @@ footer{
         justify-content: left;
         z-index: 5;
         transition: 1s;
+    }
+    
+    .gallery-container{
+        width: 100%;
+        height: 60vh;
+        overflow-y: scroll;
+        overflow-x: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .gallery-row{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+    }
+
+    .img{
+        max-width: 100%;
+        height: auto;
+        margin: 10px;
+        border-radius: 20px;
+        position: relative;
+        z-index: 1;
+        transition: 0.5s;
     }
     
     footer{
