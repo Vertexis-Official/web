@@ -220,7 +220,7 @@ footer{
     box-shadow: 0 0 20px rgba(255, 116, 116,1);
 }
 
-@media(max-width: 800px){
+@media(max-width: 1024px){
     ul{
         z-index: 10;
         padding: 30px;
