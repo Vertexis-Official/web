@@ -398,13 +398,13 @@ p{
 }
 
 .pandP{
-    background-color: lightgoldenrodyellow;
+    background-color: lightgreen;
 }
 
 .pandP:hover{
     background-color: black;
     color: white;
-    box-shadow: 0 0 20px rgb(255, 255, 0);
+    box-shadow: 0 0 20px rgb(0,255,0,1);
     border: 4px double #fff;
 }
 
@@ -520,7 +520,7 @@ footer{
 
 /*SMALL DEVICE*/
 
-@media(max-width: 1024px){
+@media(max-width: 800px){
     ul{
         z-index: 10;
         padding: 30px;
