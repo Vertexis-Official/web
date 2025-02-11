@@ -258,7 +258,7 @@ h4{
 /*ABOUT US*/
 .games{
     width: 100%;
-    height: 55vh;   
+    height: 30vh;   
     background-color: black;
 }
 
@@ -280,7 +280,7 @@ h5{
 }
 
 .tabs{
-    height: 11%;
+    height: 45px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 10px;
@@ -340,9 +340,10 @@ h5{
 }
 
 .gameImg{
-    width: 300px;
+    width: 250px;
+    height: auto;
     border: none;
-    border-radius: 25px;
+    border-radius: 16px;
     box-shadow: 0 0 5px #fff;
     margin-right: 20px;
 }
@@ -432,7 +433,7 @@ p{
 }
 
 .rmLogo {
-    width: 100%;
+    width: 250px;
     border: 0.5px solid #fff;
     border-radius: 25px;
     cursor: pointer;
@@ -609,20 +610,21 @@ footer{
     
     /*GAMES*/
     .games{
-        height: 80vh;
+        height: 70vh;
     }
     
     .tabs{
         display: flex;
         flex-direction: column;
-        height: 20%;
+        height: 30%;
+        align-items: center;
+        margin-bottom: -50px;
     }
     .tab{
         padding: 0;
-        margin-bottom: 10px;
-        width: 100%;
-        height: 100%;;
-        font-size: 10;
+        width: 50%;
+        height: 40px;
+        font-size: 15;
         font-weight: bold;
     }
     

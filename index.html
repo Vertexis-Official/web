@@ -57,7 +57,7 @@
     </section>
 
         <!--GAMES-->
-    <section class="games">
+    <section class="games" id="games">
         <h5>GAMES</h5>
         <div class="container">
             <div class="tabs">
@@ -68,7 +68,7 @@
 
             <div class="content">
                 <div class="tab-content" id="pandemonium">
-                    <div><img src="HOME/pandImg.png" class="gameImg"></div>
+                    <div><img src="HOME/pandImg.jpeg" class="gameImg"></div>
                     <div class="gameText">
                         <h6>PANDEMONIUM</h6>
                         <p>Pandemonium is a fighter-horror game on Roblox. It features 2 modes - Story and Endless. Story incorporates a storyline into the players gameplay. Endless is a multiplayer option where players can fight for unlimited rounds. Find out more by hitting the play button!</p>
@@ -139,6 +139,7 @@
 </body>
 </html>
 <script>
+    const games = document.getElementById("games")
     const tabs = document.querySelectorAll(".tab");
     const tabContents = document.querySelectorAll(".tab-content");
 
@@ -155,6 +156,7 @@
         // Find the corresponding tab-content and activate it
         const tabId = tab.getAttribute("data-tab");
         document.getElementById(tabId).classList.add("active");
+        games.style.height = "100vh"
       });
     });
 
@@ -162,7 +164,7 @@
         link.addEventListener('click', function(event) {
             const href = this.getAttribute('href');
 
-            // If href starts with a #, allow default anchor behavior
+ 
             if (href.startsWith("#")) {
                 return;
             }
