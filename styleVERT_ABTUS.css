@@ -121,7 +121,7 @@ ul li a:hover{
 /*Section1*/
 .sect1{
     width: 100%;
-    height: 70vh;
+    height: 80vh;
     padding-top: 15vh;
     display: flex;
     flex-direction: column;
@@ -153,11 +153,12 @@ h2{
     display: flex;
     height: 40%;
     justify-content: center;
+    align-items: center;
 }
 
 .tab{
-    width: 30%;
-    height: 100%;
+    width: 25%;
+    height: 80%;
     display: flex;
     flex-direction: column;
     background-color: black;
@@ -232,7 +233,7 @@ h4{
 
 .slides{
     display: flex;
-    width: 400%;
+    width: 400vw;
     text-align: center;
     transition: transform 1s ease-in-out;
     padding: 20px;
@@ -252,16 +253,28 @@ h4{
     transition: transform 0.2s ease;
 }
 
+
+
 .slideText{
     position: absolute;
     width: 50%;
     align-content: center;
     bottom: 5%;
-    left: 25%;
+    left: 10%;
     color: white;
     background: rgba(0,0,0,0.5);
     padding: 20px;
     border-radius: 10px;
+    text-align: left;
+}
+
+h5{
+    font-size: 20;
+    text-shadow: 0 0 5px rgba(255,255,255,1);
+}
+
+.slideBody{
+    font-size: 15;
 }
 
 
